@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".category">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHO ARE YOU?"
+        android:layout_marginTop="95dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="45.0sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:id="@+id/newLay"
+        android:visibility="visible">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="6dp"
+            android:id="@+id/physiciancard"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/physician">
+                <View
+                    android:id="@+id/opacityFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:layout_alignParentBottom="true"
+                    android:alpha="0.4">
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PHYSICIAN"
+                    android:layout_marginTop="45dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="28.0sp"
+                    android:id="@+id/buttonPane2"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- this is the second cardview-->
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/patientcard"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="6dp"
+            android:alpha="0.8"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/patient">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:layout_alignParentBottom="true"
+                    android:alpha="0.0">
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PATIENT"
+                    android:layout_marginTop="45dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="28.0sp"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

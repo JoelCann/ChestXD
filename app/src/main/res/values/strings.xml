@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ChestXD</string>
+    <string name="takeP">Take a Picture</string>
+    <string name="or">OR</string>
+    <string name="chooseP">Pick a Picture</string>
+    <string name="predict">Predict</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="Enter_Username" />
+    <string name="enter_username">Enter Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Get diagnosis on diseases relating to organs in the torso(chest) of the human body.</string>
+    <string name="lp2text">Take a snapshot or upload a copy of your x-ray report from storage for diagnosis.</string>
+    <string name="lp3text">Get timely results on the predictions from the app.</string>
+    <string name="hplatelectasis"><a href="https://www.mayoclinic.org/diseases-conditions/atelectasis/symptoms-causes/syc-20369684">More info</a></string>
+    <string name="sign_in">Already have an account? SIGN IN</string>
+    <string name="sign_up">Don\'t have an account?  SIGN UP.</string>
+    <string name="log_out">Log Out</string>
+    <string name="history">History</string>
+    <string name="full_name">Enter full name</string>
+    <string name="enter_age">Enter age</string>
+    <string name="input_email">Enter email</string>
+    <string name="input_contact"> Input contact</string>
+    <string name="input_address">Input residential address</string>
+    <string name="patient_information"><u>PATIENT INFORMATION</u></string>
+</resources>

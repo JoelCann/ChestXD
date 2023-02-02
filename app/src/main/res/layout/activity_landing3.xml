@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".landing3">
+
+    <Button
+        android:id="@id/skip"
+        android:layout_marginLeft="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginRight="4.0dp"
+        android:background="@drawable/pred_btn"
+        android:text="Skip"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/pic3"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/predict"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+         android:layout_marginBottom="19.0dp"
+        android:textColor="#808080"
+        android:textSize="18dp"
+        android:text="@string/lp3text"/>
+
+    <Button
+        android:id="@+id/nextt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="4.0dp"
+        android:background="@drawable/bluebordbtn"
+        android:text="Next"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</LinearLayout>
